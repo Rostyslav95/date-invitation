@@ -1,49 +1,9 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#384936">
-<title>У меня есть к тебе вопрос</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Досье Машки 🤡</title>
 <style>
-:root{--green:#384936;--deep:#263527;--light:#a9b49c;--cream:#f4f2e9;--gold:#c7ad75;--ink:#f6f5ef}
-*{box-sizing:border-box}
-body{margin:0;min-height:100vh;display:grid;place-items:center;padding:22px;background:radial-gradient(circle at 18% 12%,#64745a 0,transparent 34%),radial-gradient(circle at 88% 88%,#1e2b20 0,transparent 38%),var(--deep);font-family:Georgia,"Times New Roman",serif;color:var(--ink)}
-.card{width:min(100%,520px);text-align:center;padding:clamp(30px,8vw,54px) 26px;background:linear-gradient(145deg,#435640,#2e3d2e);border:1px solid #87927b66;box-shadow:0 24px 80px #10181088;border-radius:26px;position:relative;overflow:hidden}
-.card:before{content:"";position:absolute;inset:10px;border:1px solid #c7ad7555;border-radius:18px;pointer-events:none}
-.ornament{font-size:25px;color:var(--gold);letter-spacing:9px}
-h1{font-size:clamp(34px,8vw,48px);line-height:1.12;font-weight:400;margin:24px 0 16px}
-p{color:#e0e4d9;font-family:system-ui,sans-serif;font-size:16px;line-height:1.7;margin:0 auto;max-width:390px}
-.note{margin:28px auto;padding:19px 17px;border-top:1px solid #c7ad7577;border-bottom:1px solid #c7ad7577;max-width:370px;color:#f4f0e5;font-family:system-ui,sans-serif;font-size:16px;line-height:1.65}
-.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-button{border:1px solid var(--gold);border-radius:999px;padding:14px 21px;font-size:14px;font-weight:600;cursor:pointer;transition:transform .18s,background .18s}
-button:hover{transform:translateY(-2px)}
-.primary{background:var(--gold);color:#263126}
-.secondary{background:transparent;color:#f5f2e8}
-#reply{min-height:48px;margin-top:22px;color:#e5d2a6;font-family:system-ui,sans-serif;font-size:15px;line-height:1.5}
-footer{margin-top:24px;font:12px system-ui,sans-serif;color:#c1c9b8}
-</style>
-</head>
-<body>
-<main class="card">
-  <div class="ornament">✦ ✧ ✦</div>
-  <h1>У меня есть к тебе<br>один вопрос…</h1>
-  <p>Не хотелось приглашать тебя обычным сообщением, поэтому я подготовил кое-что особенное.</p>
-  <div class="note">Как насчёт сходить со мной на свидание?<br>Хочу провести с тобой приятный вечер.</div>
-  <div class="actions">
-    <button class="primary" onclick="answer('yes')">Да, с удовольствием</button>
-    <button class="secondary" onclick="answer('details')">Какие планы?</button>
-  </div>
-  <div id="reply" aria-live="polite"></div>
-  <footer>Немного волнения. Много искренности.</footer>
-</main>
-<script>
-function answer(choice){
- const reply=document.getElementById('reply');
- reply.textContent = choice==='yes'
- ? 'Тогда договорились. Осталось выбрать день и место ✨'
- : 'Хочу придумать вечер, который понравится нам обоим. Обсудим?';
-}
-</script>
-</body>
-</html>
+:root{--red:#ff2638;--ink:#08090d;--paper:#f0dfc7}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% 0,#351016 0,#0b0b10 48%,#050507 100%);color:#f7eee7;font-family:Arial,sans-serif;min-height:100vh;padding:28px 14px;overflow-x:hidden}.wrap{max-width:850px;margin:auto}.top{text-align:center;text-transform:uppercase;color:var(--red);font-weight:900;letter-spacing:2px;font-size:clamp(24px,5vw,42px);text-shadow:0 0 18px #ff203a66}.sub{text-align:center;color:#e6c9c4;margin:8px 0 22px}.tape{height:13px;background:repeating-linear-gradient(135deg,#ffca28 0 18px,#171717 18px 36px);border-radius:4px;opacity:.9}.paper{background:linear-gradient(135deg,#f4e5d2,#d8bda1);color:#17100d;border:5px solid #7c4935;border-radius:15px;padding:clamp(18px,4vw,34px);box-shadow:0 20px 70px #0009;transform:rotate(-.3deg)}.tag{display:inline-block;background:#a50019;color:white;padding:8px 12px;font-weight:900;letter-spacing:1px;transform:rotate(-2deg)}h1{text-align:center;font-size:clamp(42px,9vw,76px);margin:10px 0;color:#15100e;text-transform:uppercase}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:22px 0}.stat{background:#fff4e6b8;border:1px solid #a9866d;border-radius:9px;padding:13px;font-weight:700}.status{background:#9d0019;color:white;text-align:center;padding:15px;border-radius:8px;font-size:clamp(20px,5vw,30px);font-weight:1000;letter-spacing:1px;box-shadow:0 5px 0 #51000e}.warning{background:#171216;color:#fff1eb;border:2px solid var(--red);padding:16px;border-radius:10px;margin-top:18px}.warning b{color:#ff5360}.verdict{margin-top:18px;border-top:2px dashed #956f59;padding-top:16px;font-weight:700}.clowns{text-align:center;font-size:34px;letter-spacing:8px;margin:20px 0}.actions{text-align:center;margin:26px 0 12px}.btn{border:0;border-radius:999px;background:linear-gradient(90deg,#b90020,#ff2638);color:white;padding:16px 24px;font-size:18px;font-weight:900;box-shadow:0 0 25px #ff263866;cursor:pointer}.btn:active{transform:scale(.98)}.result{display:none;margin:16px auto 0;max-width:550px;border:1px solid #ff4557;background:#190b10;padding:17px;border-radius:12px;text-align:center;line-height:1.5}.foot{text-align:center;color:#a99a9b;font-size:12px;margin-top:18px}.scribble{color:#ff6b75;text-align:center;font-weight:900;font-size:18px;margin:16px}
+</style></head>
+<body><main class="wrap"><div class="tape"></div><div class="top">⚠ Секретное досье ⚠</div><div class="sub">Операция «Длинный язык» · дело № 001-М</div><section class="paper"><div class="tag">ДОСТУП: ДЛЯ ВСЕХ, КТО В ТЕМЕ 🤡</div><h1>Машка 🤡</h1><div class="scribble">«Болтать меньше — жить спокойнее»</div><div class="stats"><div class="stat">🔒 Конфиденциальность: <b>не обнаружена</b></div><div class="stat">⚡ Скорость новостей: <b>быстрее 5G</b></div><div class="stat">🧠 Память: <b>чужие секреты помнит лучше паролей</b></div><div class="stat">🔇 Режим молчания: <b>функция временно недоступна</b></div></div><div class="status">СТАТУС: ИДЁШЬ НАХУЙ 🤡</div><div class="warning"><b>🚨 Дополнительное предупреждение</b><p>«Если Машка сказала, что это останется между вами, значит, скоро об этом узнает весь район» 😂</p><p>Длинный язык — большие новости. А иногда и большие проблемы.</p></div><div class="verdict">⚖️ <b>Приговор комиссии:</b><br>Назначить 30 дней без сплетен. За каждое нарушение — внеочередное заседание комиссии по длинным языкам.</div><div class="clowns">🤡 😂 🤡 🙈 🤡</div></section><div class="actions"><button class="btn" onclick="promise()">Я больше не буду сплетничать 🤡</button><div class="result" id="result">Машка, мы знаем, что ты всё равно кому-нибудь расскажешь. Но попытка засчитана 😂🤡<br><b>Испытательный срок начался!</b></div></div><div class="foot">Это шуточное досье. Без обид — просто пора беречь чужие секреты 🤡</div><div class="tape"></div></main><script>function promise(){const r=document.getElementById('result');r.style.display='block';r.scrollIntoView({behavior:'smooth',block:'center'});}</script></body></html>
